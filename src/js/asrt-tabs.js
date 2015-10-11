@@ -101,5 +101,4 @@
         });
     };
 
-    $('.js-tabs').asrtTabs();
 })( jQuery );
