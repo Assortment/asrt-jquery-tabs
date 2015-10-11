@@ -1,0 +1,57 @@
+/**
+ * TABS STYLES
+ */
+
+.tabs__nav {
+    list-style: none;
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.tabs__nav-item {
+    float: left;
+    display: block;
+    width: 49%;
+    width: calc(50% - 2px);
+    margin-left: 2px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.tabs__nav-link {
+    display: block;
+    padding: 1em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background: lighten(tomato, 15%);
+    text-decoration: none;
+
+    &:hover, &:focus {
+        color: white;
+        background: tomato;
+    }
+
+    &:active, &:focus {
+        top: 0;
+    }
+
+    &.is-active {
+        background: tomato;
+    }
+}
+
+.tabs__section {
+    display: none;
+    padding: 1em 0;
+
+    &.is-active {
+        display: block;
+    }
+}
