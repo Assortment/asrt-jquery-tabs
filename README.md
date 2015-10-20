@@ -1,4 +1,4 @@
-# Assortment's easy-peasy jQuery tabs plugin
+# Assortment's jQuery tabs plugin
 
 More info to come.
 
